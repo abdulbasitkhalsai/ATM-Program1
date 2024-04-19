@@ -1,6 +1,6 @@
 {
   "name": "atm-program1",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ATM Program based on Typscript with Inquirer & Chalk",
   "main": "index.js",
   "type": "module",
