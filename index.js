@@ -37,7 +37,7 @@ if (pinAnswer.pin === myPin) {
             }
         ]);
         myBalance -= transAmount.amountWithdrawl;
-        if (transAmount.amountWithdrawl <= myBalance && !(transAmount.amountWithdrawl % 500)) {
+        if (transAmount.amountWithdrawl <= myBalance && (transAmount.amountWithdrawl % 500 === 0)) {
             console.log(`Please receive cash Rs. ${transAmount.amountWithdrawl}. Now you current Balance is ${myBalance}.`);
         }
         else if (transAmount.amountWithdrawl > myBalance) {
